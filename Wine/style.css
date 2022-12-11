@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans,sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-left a:hover{
+    color: #c0a483;
+}
+.header-right i:hover{
+    cursor: pointer;
+    color: #c0a483;
+}
+.header-top{
+    font-size: 13px;
+    
+}
+.header-right i{
+    padding: 0 15px 0 0;
+    font-size: 15px;
+}
+.container{
+    padding: 1rem 90px;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}
+.telephone{
+    margin-right: 35px;
+}
+#t-icon{
+    margin-right: 5px;
+}
+#l-icon{
+    margin-right: 7px;
+}
+hr{
+    opacity: 0.1;
+}
+.logo img{
+    max-height: 22px;
+    width: auto;
+}
+
+.h-bottom{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right: 36rem;
+}
+.navbar a{
+    margin-right: 25px;
+}
+.h-bottom i:hover{
+    color: #c0a483;
+}
+#login{
+    font-size: 12px;
+    font-family: Marcellus,serif;
+}
+.icon i{
+    margin-right: 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+.icon span{
+    position: absolute;
+    background-color:#c0a483;
+    color: #fff;
+   top: -7px;
+  right: -2px;
+  padding: 0 5px 0;
+  border-radius: 100%;
+  font-size: 13px;
+
+}
+.icon {
+    position: relative;
+    
+
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+.allbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+   
+    text-align: center;
+}
+.content h1{
+    padding-top: 2rem;
+    font-size: 24px;
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400;
+}
+.content span{
+    color:#c0a483;
+
+}
+.box{
+    position:relative;
+    z-index: 1;
+}
+.box h3{
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Marcellus,serif;
+    padding: 20px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    z-index: 222;
+   
+}
+.box img{
+    filter: grayscale(0%);
+    z-index: -1;
+    transition: 0.5s;
+ 
+}
+.box img:hover{
+    filter: grayscale(100%);
+   
+}
+.icon i:hover{
+    transform: translateY(-15%);
+    
+}
+#productscard h3{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+#productscard span{
+    color: #c0a483;
+    
+}
+#productscard{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner9.jpg);
+}
+.card-all{
+    display: flex;
+    justify-content: space-between;
+}
